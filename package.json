@@ -1,0 +1,19 @@
+{
+  "name": "cypress_test_automation",
+  "version": "1.0.0",
+  "description": "cypress test automation demo and startup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress open":"cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cypress_nemo"
+  },
+  "author": "kaushik",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.4.1"
+  }
+}
