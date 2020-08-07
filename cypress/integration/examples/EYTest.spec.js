@@ -1,7 +1,11 @@
-describe('First Cypress Test for EY',()=>{
+/// <reference types = "cypress" />
 
-    it('Navigate to EY.com',()=>{
+describe('Execute automation homepage',()=>{
+
+    it('It should launch execute automation homepage',()=>{
 
         cy.visit("http://www.executeautomation.com/site/")
+        cy.get("")
+        
     })
 })
