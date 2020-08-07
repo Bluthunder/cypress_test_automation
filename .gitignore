@@ -2,9 +2,11 @@
 .gitattributes
 
 # Video logs
-.\Video\*.*
+.\videos\*.*
 
 # screenshots
 .\screenshots\*.*
 
 .\node_modules\*.*
+
+.\debug.log
