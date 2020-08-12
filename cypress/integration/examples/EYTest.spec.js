@@ -1,11 +1,19 @@
 /// <reference types = "cypress" />
 
+const { Homepage } = require("../../page-objects/homepage")
+
 describe('Execute automation homepage',()=>{
 
-    it('It should launch execute automation homepage',()=>{
+    const homepage = new Homepage
 
-        cy.visit("http://www.executeautomation.com/site/")
-        cy.get("input[type='text'][placeholder*='learning']").type("Cypress")
+    beforeEach(()=>{
+        homepage.navigate()
+    })
+
+
+    it('It should launch execute automation homepage',()=>{
+        
+        cy.get("input[type='text'][placeholder*='learning']").type("Cypress").click
         
     })
 })
